@@ -24,13 +24,13 @@ Prerequisites:
 
 Setup instructions:
 
-  unzip OpenwormConnectomeBundle-snapshot-20131102.zip
-  cd OpenwormConnectomeBundle-snapshot-20131102
+  unzip CElegansConnectomeBundle-snapshot-20131102.zip
+  cd CElegansConnectomeBundle-snapshot-20131102
   ./setup.sh
 
 To run:
 
-  cd OpenwormConnectomeBundle-snapshot-20131102/neuroConstruct
+  cd CElegansConnectomeBundle-snapshot-20131102/neuroConstruct
   ./nC.sh
 
 
@@ -56,6 +56,6 @@ Setup instructions:
 
 To run:
 
-  Browse to folder "OpenwormConnectomeBundle-snapshot-20131102/neuroConstruct"
+  Browse to folder "CElegansConnectomeBundle-snapshot-20131102/neuroConstruct"
   Run the file "nC.bat".
 

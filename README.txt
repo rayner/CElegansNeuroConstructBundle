@@ -1,4 +1,4 @@
-CElegansConnectomeBundle
+CElegansNeuroConstructBundle
 ========================
 
 This file contains instructions for installing the software bundle and
@@ -24,13 +24,13 @@ Prerequisites:
 
 Setup instructions:
 
-  unzip CElegansConnectomeBundle-snapshot-20131102.zip
-  cd CElegansConnectomeBundle-snapshot-20131102
+  unzip CElegansNeuroConstructBundle-snapshot-20131102.zip
+  cd CElegansNeuroConstructBundle-snapshot-20131102
   ./setup.sh
 
 To run:
 
-  cd CElegansConnectomeBundle-snapshot-20131102/neuroConstruct
+  cd CElegansNeuroConstructBundle-snapshot-20131102/neuroConstruct
   ./nC.sh
 
 
@@ -56,6 +56,6 @@ Setup instructions:
 
 To run:
 
-  Browse to folder "CElegansConnectomeBundle-snapshot-20131102/neuroConstruct"
+  Go to folder "CElegansNeuroConstructBundle-snapshot-20131102/neuroConstruct"
   Run the file "nC.bat".
 

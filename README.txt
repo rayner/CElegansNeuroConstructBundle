@@ -1,5 +1,5 @@
 CElegansNeuroConstructBundle
-========================
+============================
 
 This file contains instructions for installing the software bundle and
 running neuroConstruct.

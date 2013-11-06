@@ -8,8 +8,8 @@ A full guide to getting started is on the OpenWorm Wiki:
 https://github.com/openworm/OpenWorm/wiki/Running-the-C.-elegans-model-in-neuroConstruct
 
 
-Linux / Unix:
--------------
+Mac / Linux / Unix:
+-------------------
 
 Prerequisites:
 

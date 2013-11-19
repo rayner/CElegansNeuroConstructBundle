@@ -24,13 +24,13 @@ Prerequisites:
 
 Setup instructions:
 
-  unzip CElegansNeuroConstructBundle-snapshot-20131102.zip
-  cd CElegansNeuroConstructBundle-snapshot-20131102
+  unzip CElegansNeuroConstructBundle-snapshot-{{DATE}}.zip
+  cd CElegansNeuroConstructBundle-snapshot-{{DATE}}
   ./setup.sh
 
 To run:
 
-  cd CElegansNeuroConstructBundle-snapshot-20131102/neuroConstruct
+  cd CElegansNeuroConstructBundle-snapshot-{{DATE}}/neuroConstruct
   ./nC.sh
 
 
@@ -56,6 +56,6 @@ Setup instructions:
 
 To run:
 
-  Go to folder "CElegansNeuroConstructBundle-snapshot-20131102/neuroConstruct"
+  Go to folder "CElegansNeuroConstructBundle-snapshot-{{DATE}}/neuroConstruct"
   Run the file "nC.bat".
 

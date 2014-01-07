@@ -9,7 +9,7 @@
 DATE=`date +%Y%m%d`
 
 # Create bundle directory
-BUNDLE_DIR_NAME=OpenwormConnectomeBundle-snapshot-$DATE
+BUNDLE_DIR_NAME=CElegansNeuroConstructBundle-snapshot-$DATE
 mkdir $BUNDLE_DIR_NAME
 cd $BUNDLE_DIR_NAME
 

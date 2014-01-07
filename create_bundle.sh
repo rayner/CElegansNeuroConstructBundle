@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Automate creation of neuroConstruct/CElegansNeuroML bundle.
 #
@@ -14,13 +14,16 @@ mkdir $BUNDLE_DIR_NAME
 cd $BUNDLE_DIR_NAME
 
 # Get neuroConstruct
-git clone git://github.com/NeuralEnsemble/neuroConstruct.git
+# Use jogamp_j3d branch for now, as this includes updated 3D
+# visualization libs that work properly on OS X.
+git clone -b jogamp_j3d git://github.com/NeuralEnsemble/neuroConstruct.git
+#git clone git://github.com/NeuralEnsemble/neuroConstruct.git
 cd neuroConstruct
 ./updatenC.sh
 
 # Modify neuroConstruct install scripts
-sed -i "s/\$HOME\/neuroConstruct/export NC_HOME=\$(dirname \$0)/" nC.sh
-sed -i "s/set NC_HOME=C:\\neuroConstruct/set NC_HOME=%~dp0/" nC.bat
+sed -i "s/export NC_HOME=\$HOME\/neuroConstruct/export NC_HOME=\$(dirname \$0)/" nC.sh
+sed -i "s/set NC_HOME=C:\\\\neuroConstruct/set NC_HOME=%~dp0/" nC.bat
 
 # Copy README and scripts to bundle directory
 cd ..

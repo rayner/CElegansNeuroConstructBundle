@@ -42,3 +42,9 @@ zip -r $BUNDLE_DIR_NAME $BUNDLE_DIR_NAME
 
 # Clean up
 rm -rf $BUNDLE_DIR_NAME
+
+echo -e "\nBundle created.\n"
+echo "Now upload to Dropbox and update the download links at:"
+echo "* Openworm Docs: http://docs.openworm.org/en/latest/Resources/running-nc.html#running-nc"
+echo "* Downloads page: http://www.openworm.org/downloads.html"
+echo "* Openworm Wiki: https://github.com/openworm/OpenWorm/wiki/Running-the-C.-elegans-model-in-neuroConstruct"
